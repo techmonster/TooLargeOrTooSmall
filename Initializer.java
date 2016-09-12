@@ -1,9 +1,9 @@
 package holloway.nate.TooLargeOrSmall;
-
 /**
  * Created by nathanielholloway on 9/10/16.
  * This program is a guessing game.
  */
+
 public class Initializer {
 
     public static void main(String[] args) {

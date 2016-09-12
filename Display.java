@@ -1,5 +1,4 @@
 package holloway.nate.TooLargeOrSmall;
-
 import java.util.Scanner;
 
 /**

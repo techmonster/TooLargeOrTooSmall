@@ -8,7 +8,6 @@ import java.util.Random;
  */
  class Compute {
 
-
     private int secretNumber;
     private Display display;
     private int tries = 0;
