@@ -1,13 +1,12 @@
 package holloway.nate.TooLargeOrSmall;
 
-
 import java.util.Random;
 
 /**
  * Created by nathanielholloway on 9/10/16.
  * This is the logic or Compute class.
  */
-public class Compute {
+ class Compute {
 
 
     private int secretNumber;
