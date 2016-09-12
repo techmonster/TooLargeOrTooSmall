@@ -6,14 +6,14 @@ import java.util.Scanner;
  * Created by nathanielholloway on 9/10/16.
  * This is the Display class.
  */
-public class Display {
-    Scanner sc;
+class Display {
+    private Scanner sc;
 
-    public Display() {
+    Display() {
          this.sc = new Scanner(System.in);
     }
 
-    public int promptGuess(){
+    int promptGuess(){
 
 
         displayMessage("Please enter a number...");
@@ -21,7 +21,7 @@ public class Display {
     }
 
 
-    public void displayMessage(String msg){
+    void displayMessage(String msg){
 
         System.out.println(msg);
     }

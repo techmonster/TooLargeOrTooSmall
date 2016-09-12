@@ -13,5 +13,4 @@ public class Initializer {
             state = startApp.computation();
         }
     }
-
 }

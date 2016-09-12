@@ -15,13 +15,13 @@ public class Compute {
     private int tries = 0;
     private int lastGuess = 0;
 
-    public Compute(){
+    Compute(){
         Random rnd = new Random();
         this.secretNumber = rnd.nextInt(100)+1;
         this.display = new Display();
     }
 
-    public boolean computation(){
+    boolean computation(){
         int userGuess = display.promptGuess();
         determineTries(lastGuess,userGuess);
         lastGuess = userGuess;
